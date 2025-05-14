@@ -1,0 +1,49 @@
+.topbar{
+    display: none;
+}
+.custom-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #efefef;
+}
+.navbar-logo{
+    width:200px;
+}
+.navbar-title{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.swagger-ui .opblock.opblock-post .opblock-summary-method {
+    background: #c2171c;
+}
+.swagger-ui .opblock.opblock-post {
+    background: #efefef;
+    border-color: #c2171c;
+}
+.swagger-ui .opblock.opblock-post .opblock-summary {
+    border-color: #c2171c;
+}
+.swagger-ui section.models {
+    border: 1px solid #c2171c;
+}
+.base-url, .link{
+    display: none;
+}
+.swagger-ui .opblock-body pre.microlight{
+    background:none !important;
+    color: black !important;
+}
+.hljs-attr+span+span{
+    color: #c2171c !important;
+}
+.response-col_status{
+    font-weight: bold;
+}
+.swagger-ui .btn{
+    border: 2px solid #c2171c !important;
+}
+.swagger-ui .prop-type {
+    color: #c2171c !important;
+}
