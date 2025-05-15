@@ -1,19 +1,42 @@
 .topbar{
     display: none;
 }
-.custom-navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #efefef;
+.custom-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background-color: #1f2937; /* dark background */
+  color: white;
 }
-.navbar-logo{
-    width:200px;
+
+.navbar-logo {
+  height: 40px;
+  margin-right: 15px;
 }
-.navbar-title{
-    font-size: xx-large;
-    font-weight: bold;
+
+.navbar-title {
+  font-size: 20px;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.navbar-dropdown {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-dropdown label {
+  color: white;
+  font-size: 16px;
+}
+
+.navbar-dropdown select {
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
 }
 .swagger-ui .opblock.opblock-post .opblock-summary-method {
     background: #c2171c;
@@ -31,11 +54,9 @@
 .base-url, .link{
     display: none;
 }
-.swagger-ui .opblock-body pre.microlight{
-    background:none !important;
-    color: black !important;
-}
-.hljs-attr+span+span{
+
+
+.json-string{
     color: #c2171c !important;
 }
 .response-col_status{
@@ -46,4 +67,7 @@
 }
 .swagger-ui .prop-type {
     color: #c2171c !important;
+}
+#model-AttributeData{
+	display:none;
 }
