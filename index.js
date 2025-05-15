@@ -1,4 +1,4 @@
-let urlLocal = 'https://api-staging.securew2.com/v1/docs/enrollment'; // default
+let urlLocal = 'https://api-staging.securew2.com/v1/docs/enroll'; // default
 const bearerToken = '19k8nvgjlu1k5brfugftfdt94j'; // Replace with your actual token
 
 function loadSwaggerUI() {
@@ -20,7 +20,7 @@ function loadSwaggerUI() {
 function handleApiChange(value) {
   switch (value) {
     case 'enrollment':
-      urlLocal = 'https://api-staging.securew2.com/v1/docs/enrollment';
+      urlLocal = 'https://api-staging.securew2.com/v1/docs/enroll';
       break;
     case 'certificate':
       urlLocal = 'http://localhost:8006/v1/organizations/12345/certificates/v1/docs/certificate';
